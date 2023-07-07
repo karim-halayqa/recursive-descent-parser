@@ -1,12 +1,11 @@
-project a ; const len = 100 ; const a = 100 ; routine compute ; var num : int ; start input ( x ) ; num := n + 10 ; output ( num ) ; end ; start input ( i ) ; if ( i < 100 ) then j := 5 endif ; loop ( i <> min ) do start i := i + 1 ; outputt ( i ) ; total := total + i ; end ; output ( total ) ; end .
-project project;
+project a;
 const
   len=100;
 var
   total:int;
-  
+
 routine compute;
-  
+
   var
     num:int;
 start
@@ -14,7 +13,7 @@ start
   num:=n+10;
   output(num);
 end;
-  
+
 start
   input(i);
   if (i< 100) then
@@ -23,7 +22,7 @@ start
   loop (i<> min) do
     start
       i := i+1;
-      outputt(i);
+      output(i);
       total :=total+i;
     end;
   output(total);

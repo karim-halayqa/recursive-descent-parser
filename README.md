@@ -1,7 +1,7 @@
 Recursive descent parser which takes a program in a file input and outputs any syntax errors according to the provided production rules.
 The production rules:
 
-project-declaration -> project-def     "."
+project-declaration → project-def     "."
 
 project-def → project-heading declarations compound-stmt
 
