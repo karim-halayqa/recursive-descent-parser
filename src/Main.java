@@ -19,11 +19,6 @@ public class Main {
             "statement", "do", "loop"
     }));
 
-    //all symbols that can be used in the program in a list
-    static List<String> symbols = new ArrayList<>(List.of(new String[]{
-            ";", ".", ":", ",", ":=", "=", "(", ")", "+", "-", "*", "/", "<", ">", "<=", ">=", "==", "!=", "&&", "||", "!"
-    }));
-
     /**
      * read tokens from program.txt file
      */
