@@ -16,7 +16,7 @@ public class Main {
 
     static List<String> reservedWords = new ArrayList<>(List.of(new String[]{
             "project", "const", "var", "routine", "start", "end", "input", "output", "if", "then", "endif", "else",
-            "statement", "do", "loop", "λ", "var"
+            "statement", "do", "loop"
     }));
 
     //all symbols that can be used in the program in a list
